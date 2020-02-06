@@ -1,0 +1,14 @@
+.ReviewsList {
+  text-align: justify;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ReviewsList__item {
+  width: 70%;
+  margin-top: 20px;
+  padding: 15px;
+  border-bottom: 1px groove #eee;
+}
