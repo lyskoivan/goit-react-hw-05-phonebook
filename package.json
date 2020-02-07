@@ -1,5 +1,5 @@
 {
-  "name": "goit-react-hw-03-phonebook",
+  "name": "goit-react-hw-05-phonebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://lyskoivan.github.io/goit-react-hw-03-phonebook",
+  "homepage": "https://lyskoivan.github.io/goit-react-hw-05-phonebook",
   "eslintConfig": {
     "extends": "react-app"
   },

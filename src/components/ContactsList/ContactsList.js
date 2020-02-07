@@ -9,7 +9,7 @@ import styles from './ContactsList.module.css';
 import slideTransition from '../../transitions/slide-250.module.css';
 
 const ContactsList = ({ contacts, handleDeleteContact }) => (
-  <TransitionGroup type="ul" className={styles.contacts__list}>
+  <TransitionGroup component="ul" className={styles.contacts__list}>
     {contacts.map(contact => (
       <CSSTransition
         key={contact.id}
